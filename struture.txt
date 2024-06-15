@@ -1,0 +1,32 @@
+drone_firmware/
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   ├── controllers/
+│   │   ├── __init__.py
+│   │   ├── motor_controller.py
+│   │   ├── flight_controller.py
+│   │   └── sensor_controller.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── drone.py
+│   │   └── sensor.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   └── helpers.py
+│   └── tests/
+│       ├── __init__.py
+│       ├── test_motor_controller.py
+│       ├── test_flight_controller.py
+│       └── test_sensor_controller.py
+├── scripts/
+│   ├── deploy.py
+│   └── setup.py
+├── docs/
+│   ├── README.md
+│   └── usage.md
+├── .gitignore
+└── requirements.txt
