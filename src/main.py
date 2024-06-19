@@ -1,10 +1,9 @@
-from controllers.flight_controller import FlightController
+#main.py
+import asyncio
+from utils.mission_orbit import function1
 
-def main():
-    flight_controller = FlightController()
-    flight_controller.initialize()
-    flight_controller.start_mission()
+async def main():
+    await function1()
 
 if __name__ == "__main__":
-    main()
-
+    asyncio.run(main())
